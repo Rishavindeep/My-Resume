@@ -1,0 +1,61 @@
+*{
+    background-color: black;
+}
+
+.heading{
+    font-size: 3rem;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    font-family: 'Bebas Neue', cursive;
+    color: goldenrod;
+}
+
+img{
+    width: 250px;
+    height: 200px;
+}
+
+.langlogo{
+    position: relative;
+    top: 100px;
+    left: 140px; 
+    
+}
+
+.punjabip{
+    position: relative;
+    left: 120px;
+}
+
+.hindip{
+    position: relative;
+    left: 220px;
+}
+
+.name{
+    display: flex;
+    position: relative;
+    top: 96px;
+    left: 140px;
+    font-weight: bold;
+    color: rgb(219, 234, 247);
+}
+
+.engn{
+    font-size: 2rem;
+    position: relative;
+    left: 80px;
+}
+
+.punjn{
+    font-size: 2rem;
+    position: relative;
+    left: 350px;
+}
+
+.hinn{
+    font-size: 2rem;
+    position: relative;
+    left: 620px;
+}

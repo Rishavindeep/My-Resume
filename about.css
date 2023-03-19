@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.stline{
+    font-family: 'Manrope', sans-serif;
+    font-size: 7rem;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 25px;
+    color: gold;
+}
+
+.ndline{
+    font-family: 'Manrope', sans-serif;
+    font-size: 7rem;
+    position: relative;
+    margin-left: 100px;
+    color: gold;
+}
+
+.smile{
+    margin-left: 10px;
+    width: 95px;
+    height: 90px;
+}
+
+.para{
+    display: grid;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    left: 100px;
+    font-size: 1.3rem;
+    color: rgb(187, 203, 218);
+    
+}
+
+.MePic{
+    width: 300px;
+    height: 500px;
+    position: relative;
+    left: 140px;
+    overflow: hidden;
+    
+}
+
+.detail{
+    display: flex;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+@media screen and  (max-width: 1024px) {
+
+    .para{
+        font-size: 1rem;
+        left: 0px;
+    }
+
+    .detail{
+        display: grid;
+    }
+    
+}

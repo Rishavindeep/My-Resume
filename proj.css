@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    background-color: black;
+}
+
+h1{
+    font-size: 5rem;
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    color: goldenrod;
+}
+
+.name{
+    position: relative;
+    margin-top: 50px;
+    left: 70px;
+    color: wheat;
+}
+
+
+a{
+    text-decoration: none;
+    color: yellow;
+}

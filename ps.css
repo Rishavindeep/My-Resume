@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    color: wheat;
+    font-size: 4rem;
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+
+.table1{
+    position: relative;
+    left: 70px;
+    top: 90px;
+    color: white;
+}
+
+table,td{
+    padding-left: 50px;
+    text-align: center;
+}
+
+.table2{
+    position: relative;
+    left: 70px;
+    top: 200px;
+    color: white;
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+@media screen and  (max-width: 1024px) {
+    
+    img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .table1,tr{
+        position: relative;
+        left: -40px;
+        
+        text-align: center;
+    }
+    .table2{
+        left: -40px;
+        display: flex;
+        text-align: center;
+    }
+}

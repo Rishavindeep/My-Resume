@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    /* background: linear-gradient(to right, #030300, rgb(5, 0, 0)); */
+    background: black;
+}
+
+.left-text{
+    flex-basis: 30%;
+}
+
+.heading{
+    position: relative;
+    font-family: cursive;
+    font-size: 4rem;
+    color: white;
+    /* text-align: left; */
+    top: 0px;
+    left: -9px;
+}
+
+.heading1{
+    position: relative;
+    font-family: cursive;
+    font-size: 3rem;
+    color: white;
+    /* text-align: right; */
+    top: 0px;
+    left: 50px;
+    
+}
+
+.intro{
+    font-size: 1rem;
+    position: relative;
+    top: 0px;
+    left: 50px;
+}
+.subheading{
+    font-style: italic;
+    font-family: cursive;
+    color: #ddd;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.gallery{
+    flex-basis: 50%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 120px;
+}
+
+.box{
+    background-size: cover;
+    background-position: top;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+.row2{
+    grid-row: span 2;
+}
+.col2{
+    grid-column: span 3;
+}
+
+
+.box:hover{
+    /* background-color: #999; */
+    background-color: #747171;
+    background-position: center;
+    box-shadow: 0 0 4px #fff;
+    font-size: 1.7rem;
+    
+}
+
+.Edu:hover{
+    background-color: #999;
+    background-position: center;
+    box-shadow: 0 0 4px #fff;
+    font-size: 1rem;
+    color: black;
+}
+
+/* MEDIA QUERY FOR width <= 1024px */
+
+@media screen and  (max-width: 1024px) {
+    .left-text{
+        position: relative;
+        top: 0px;
+        left: -50px;
+    }
+   .container{
+        flex-direction: column;
+        padding: 10px;
+   }
+
+   .gallery{
+    width: 100%;
+    grid-auto-rows: 220px;
+   }
+   .box{
+    grid-row: span 1;
+    grid-column: span 3;
+   }
+}
