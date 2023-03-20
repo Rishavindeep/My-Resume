@@ -109,6 +109,15 @@ a{
     color: black;
 }
 
+.resume{
+    position: relative;
+    top: 30px;
+    left: 80px;
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+
+
 /* MEDIA QUERY FOR width <= 1024px */
 
 @media screen and  (max-width: 1024px) {
