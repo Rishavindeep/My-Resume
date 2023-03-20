@@ -46,20 +46,21 @@
     font-size: 1.7rem;
 }
 
+.linkedin{
+    position: relative;
+    left: 60px;
+    top: 130px;
+}
+
 .mail{
     position: relative;
-    top: -125px;
-    left: 29px;
+    top: 130px;
+    left: 65px;
 }
 
 .github{
     position: relative;
-    top: 0px;
+    top: 130px;
     left: 100px;
 }
 
-.linkedin{
-    position: relative;
-    left: 400px;
-    top: 130px;
-}
